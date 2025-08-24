@@ -15,6 +15,15 @@ commands:
     description: Records the change.
   - command: git push origin main
     description: upload local repo content to remote repo  
+  - command: git remote add origin <filename>
+    description: remotely add new folder and files
+  - command: git remote -v 
+    description: to verify remote
+  - command: git branch
+    description: to check branch
+  - command: git branch -M main 
+    description: to rename branch
+       
 
 status:
   untracked: new files that git doesn't yet track
