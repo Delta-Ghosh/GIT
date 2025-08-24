@@ -1,0 +1,23 @@
+commands:
+  - command: git init
+    description: It initializes an empty git repository.
+  - command: git config --global user.name "Sarthak Ghosh"
+    description: Sets the global username for git.
+  - command: git config --global user.email "ghoshsarthak525@gmail.com"
+    description: Sets the global email for git.
+  - command: git config --list
+    description: Lists all git configuration settings.
+  - command: git clone "HTTPS link from Github"
+    description: Clones the repository from Github to your local machine.
+  - command: git add <file name>
+    description: Adds new or changed files in your working directory to the git staging area.
+  - command: git commit -m "Some message"
+    description: Records the change.
+  - command: git push origin main
+    description: upload local repo content to remote repo  
+
+status:
+  untracked: new files that git doesn't yet track
+  modified: changed
+  staged: file is ready to be committed
+  unmodified: unchanged
