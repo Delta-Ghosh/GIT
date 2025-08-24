@@ -1,1 +1,4 @@
 Git init - Its initializes an empty git repository.
+git config --global user.name "Sarthak Ghosh"
+git config --global user.email "ghoshsarthak525@gmail.com"
+git config --list
