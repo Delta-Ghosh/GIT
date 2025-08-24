@@ -23,7 +23,13 @@ commands:
     description: to check branch
   - command: git branch -M main 
     description: to rename branch
-       
+  - command: git checkout <branch name>
+    description: to navigate    
+  - command: git checkout -b <new branch name>
+    description: to create new branch
+  - command: git branch -d <branch name>
+    description: to delete branch
+
 
 status:
   untracked: new files that git doesn't yet track
