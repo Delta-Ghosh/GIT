@@ -29,7 +29,20 @@ commands:
     description: to create new branch
   - command: git branch -d <branch name>
     description: to delete branch
-
+  - command: git diff <branch name>
+    description: to compare 
+  - command: git merge <nranch name> 
+    description: merge two branches 
+  - command: git pull origin main
+    description: use to fetch or download remote repo from your local device to match the content 
+  - command: git reset <file name>
+    description: staged changes or which is add want to change.
+  - command: git reset HEAD~1
+    description: commited changes or undo.
+  - command: git logs
+    description: where you find the chenges commit hashes.
+  - command: git reset hash
+    description: commited changes in multiple undo.
 
 status:
   untracked: new files that git doesn't yet track
